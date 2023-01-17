@@ -38,7 +38,7 @@ On suit donc le processus dans le fichier Construction_dataset.ipynb, jusqu'a ob
 
 # V/ Résultats et conclusion
 
-On obtient jusqu'a 80% d'efficacité pour la régression logistique. Très honnetement c'est une grosse réussite, car l'objectif était simplement d'avoir un résultat supérieur à 50% (win rate moyen), ici on arrive avec une plutôt bonne accuracy à prévoir l'issue d'une partie de league of legends. Il est fort possible d'obtenir de meilleur résultats en utilisant des algortihmes plus compliqués de deep learning, cependant, je n'en comprends pas encore l'application.
+On obtient jusqu'a 82% d'efficacité pour l'arbre de décision. Très honnetement c'est une grosse réussite, car l'objectif était simplement d'avoir un résultat supérieur à 50% (win rate moyen), ici on arrive avec une plutôt bonne accuracy à prévoir l'issue d'une partie de league of legends. Il est fort possible d'obtenir de meilleur résultats en utilisant des algortihmes plus compliqués de deep learning, cependant, je n'en comprends pas encore l'application.
 
 Au niveau des features il serait intéressant d'ajouter une variable correspondant à la forme du joueur en regardant sont win rates sur les 3 dernières parties. Le mental est un élément très important dans lol, ainsi un jioueur qui vient de perdre 3 parties de suite est très succeptible d'être énervé et jouera moins bien, contrairement à un joueur qui est sur une série de victoire, qui sera de bonne humeur et détendu.
 
