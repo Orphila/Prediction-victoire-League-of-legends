@@ -28,9 +28,9 @@ On a préféré utilisé un outil de web-scrapping pour récupérer ces données
 
 On suit donc le processus dans le fichier Construction_dataset.ipynb, jusqu'a obtenir 1000 données pour un premier essai
 
-# III/ Stockage dans lune bdd
+# III/ Stockage dans une bdd
  
- Récupérer les données est excessivement long, et pour diverses raisons (bugs, pc qui séteint, fin de validité de la clé API) il peut parfois s'innterrompre. Plutot que de créer un x fichiers xlsx à chaque fois que l'algo s'arrête, j'ai décidé d'utiliser le service RDS de AWS pour stocker dans le cloud une base de données PostgreSQL et y envoyer les dernières lignes sorties à chaque fin d'algorithme. Le fichier Stockage data.ipynb explique cette démarche.
+ Récupérer les données est excessivement long, et pour diverses raisons (bugs, pc qui séteint, fin de validité de la clé API) il peut parfois s'innterrompre. Plutot que de créer un x fichiers xlsx à chaque fois que l'algo s'arrête, j'ai décidé d'utiliser le service RDS de AWS pour stocker dans le cloud une base de données PostgreSQL et y envoyer les dernières lignes sorties à chaque fin d'algorithme, c'est un peu une pipeline. Le fichier Stockage data.ipynb explique cette démarche.
 
 # IV/ Entrainement du modèle
 
