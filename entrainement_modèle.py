@@ -14,11 +14,11 @@ import psycopg2
 import pandas as pd
 
 # Informations de connection, je prends soin de ne pas partager les miennes
-host = 'database-1.ccl1lmtpi2fa.eu-west-3.rds.amazonaws.com'
+host = 'xxxxxxxxxxx.rds.amazonaws.com'
 port = 5432
-database = 'database-1'
-user = 'postgres'
-password = '12345678'
+database = 'xxxxxx'
+user = 'xxxxxx'
+password = 'xxxxxxx'
 
 
 # Création de la connection
