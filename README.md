@@ -10,7 +10,7 @@ J'ai créé le dataset moi-même en récupérant les données à partir de l'API
 
 # I/ Création du dataset
 
-J'utilise le framework python 'Cassiopeia' qui a été développer dans le but d'utiliser l'API de RIOT GAMES pour league of legends. Celle-ci me permet de récupérer tout type d'informations sur les joueurs, les parties jouées, et plein d'autres choses.
+J'utilise le framework python 'Cassiopeia' qui a été développé dans le but d'utiliser l'API de RIOT GAMES pour league of legends. Celle-ci me permet de récupérer tout type d'informations sur les joueurs, les parties jouées, et plein d'autres choses.
 
 Ici, le but est de prendre un certain volume de parties qui ont été jouées, et de voir s’il est possible de prédire l'équipe qui emporte la partie à partir d'informations sur les joueurs. Comme expliqué dans l'introduction, à chaque début de partie, les joueurs choisissent un champion. Il existe aujourd’hui plus de 180 champions, et vous vous doutez que chaque joueur à un niveau différent selon le champion qu'il joue. En général, les joueurs sont capables d'être performant sur 1 à 5 champions, et joueront ceux-ci beaucoup plus que les autres, surtout s’ils sont adeptes du mode classé. Il est de savoir commun chez les joueurs, que la maitrise du champion est probablement le facteur de victoire le plus important.
 
